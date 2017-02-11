@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14853CFD63E295FFD46FFD4943F246F9 /* TPSDropDown.h in Headers */ = {isa = PBXBuildFile; fileRef = E3E680A8E16442FB61186290A6945209 /* TPSDropDown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21D0BF785683D9ACA481FCB476A92A65 /* NSString+TPSDropDownItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 837ED2C424D4EABE8B06297650C1AD55 /* NSString+TPSDropDownItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343CF7DAE27BC235A21795807597FFD0 /* TPSSquareDropDown.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BF0831B17E5D3D5928F1D4E20D03DF6 /* TPSSquareDropDown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3533029EA99EE62A44D3339F9F48864B /* TPSMKDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DE7E71AC047E59D3810FFD53B457AB /* TPSMKDropdownMenu-dummy.m */; };
+		372470E74DA8F15B63E1AB0D2D85C37C /* TPSRoundDropDown.h in Headers */ = {isa = PBXBuildFile; fileRef = D2907B4214C9248DD12598A402BF089D /* TPSRoundDropDown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		570187ADF3BAD418406224293E291C6A /* TPSRoundDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA723530E5355412CDF7523BDA75855 /* TPSRoundDropDown.m */; };
+		5A3BD71E5FC0C6E507B0C3C45CA79D1B /* TPSDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 56155E3961634FBA43620BFA94F150DD /* TPSDropDown.m */; };
+		5C3028DF782502F57474BC2CBD90434C /* round_drop_down_indicator_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F3BE296D3231113E5721180E0C9E89 /* round_drop_down_indicator_image.png */; };
+		60693D519CA1E719A3E3A6AEAB1C5589 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		6851346A9DA047FCA7FB1DD5BE6212C7 /* MKDropdownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD155B04E7CB613387316A07D1D0362 /* MKDropdownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B18E33E382F89BCBC28C4A050D14610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		7D27F95E0B6C9C9DBFCE9EA049236E97 /* TPSDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF3A1CB1C9437B0AF0E29E3B85F0062 /* TPSDropDown-dummy.m */; };
+		8412A35E658CDAFD07DD4B84C52ACBBB /* MKDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A639A297129966B0750750FA55135F /* MKDropdownMenu.m */; };
+		938674E705204C86B9281B9D46A4A43A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		9A889E40445DA7877C73809A45AD7660 /* round_drop_down_indicator_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E8E67CD0A370F29C4BF5C99F150491 /* round_drop_down_indicator_image@2x.png */; };
+		A86C7AFE5B1735EC04211475CF05AB43 /* square_drop_down_indicator_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B1AC18CBDC4A4D4B6531493DEF2BF7 /* square_drop_down_indicator_image.png */; };
+		AEB7EDFD986FC77A0DE9384B6FCD0CDC /* NSAttributedString+TPSDropDownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 996B348830BEEE67FCB3CD5FC6996221 /* NSAttributedString+TPSDropDownItem.m */; };
+		B232FEFC2F03840A9B3A72C073ECA787 /* NSAttributedString+TPSDropDownItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E8A6ECF5C8519747CC06B11CA57C29 /* NSAttributedString+TPSDropDownItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B289C30FA470F8479FB8F4DFE3378396 /* square_drop_down_indicator_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B672FC4406798DA2ABF0A0FDAD767F1 /* square_drop_down_indicator_image@2x.png */; };
+		C53D0CF5C1085E7A04C6A52938F8196A /* Pods-Dropdown_Menu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D30CFF95B8ACF39D1D2B5BF7B78035A1 /* Pods-Dropdown_Menu-dummy.m */; };
+		CABC8545B3A6C71E6E77FD14770D7262 /* square_drop_down_indicator_image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3620ECA2BFA327DCBA3B52327365B68 /* square_drop_down_indicator_image@3x.png */; };
+		D1D160560EF714FA294C7E72231633B1 /* NSString+TPSDropDownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E6777DE8225A885F5D5ED43EF6D7F228 /* NSString+TPSDropDownItem.m */; };
+		D3DC0CCF00E0F1E3465F4900E1B29E28 /* round_drop_down_indicator_image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D62BF30BF57C5DF2EC88AD3B3D14E /* round_drop_down_indicator_image@3x.png */; };
+		F1232FD50BD15B4330460030B6D07279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		F7E1DE25795FA569F71817985C038C53 /* TPSSquareDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C1258C257D1CA5CB11868F04DA4934 /* TPSSquareDropDown.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D2B26944DB703065710024AB10412F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61AF3D02F2570F1AF006DB125D768C7;
+			remoteInfo = TPSMKDropdownMenu;
+		};
+		9FE001B8C0E9DC4E1404E8D567693519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFE0644E55E8A8678B05A72302D8B9DE;
+			remoteInfo = "TPSDropDown-TPSDropDownBundle";
+		};
+		B5923CB916CBF9DBAE2790B2D95F8FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61AF3D02F2570F1AF006DB125D768C7;
+			remoteInfo = TPSMKDropdownMenu;
+		};
+		D6285CC06F52FD3392366B34F65C7CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8FD4B738C9B6946F57B44AD1B35519C;
+			remoteInfo = TPSDropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F301BF430C4465572A6FCBEECD959EC /* libTPSDropDown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTPSDropDown.a; path = libTPSDropDown.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC37357E43F8DD990473BD80CA47704 /* TPSMKDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPSMKDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
+		2402C88E026C7FCC7D76D3546091289A /* libTPSMKDropdownMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTPSMKDropdownMenu.a; path = libTPSMKDropdownMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD155B04E7CB613387316A07D1D0362 /* MKDropdownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKDropdownMenu.h; path = MKDropdownMenu/MKDropdownMenu.h; sourceTree = "<group>"; };
+		2DC2CD3311175141236E5C73FC491658 /* TPSDropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPSDropDown.xcconfig; sourceTree = "<group>"; };
+		34F3BE296D3231113E5721180E0C9E89 /* round_drop_down_indicator_image.png */ = {isa = PBXFileReference; includeInIndex = 1; name = round_drop_down_indicator_image.png; path = TPSDropDown/Assets/round_drop_down_indicator_image.png; sourceTree = "<group>"; };
+		3F2D62BF30BF57C5DF2EC88AD3B3D14E /* round_drop_down_indicator_image@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "round_drop_down_indicator_image@3x.png"; path = "TPSDropDown/Assets/round_drop_down_indicator_image@3x.png"; sourceTree = "<group>"; };
+		45B1AC18CBDC4A4D4B6531493DEF2BF7 /* square_drop_down_indicator_image.png */ = {isa = PBXFileReference; includeInIndex = 1; name = square_drop_down_indicator_image.png; path = TPSDropDown/Assets/square_drop_down_indicator_image.png; sourceTree = "<group>"; };
+		4BF0831B17E5D3D5928F1D4E20D03DF6 /* TPSSquareDropDown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPSSquareDropDown.h; path = TPSDropDown/Classes/TPSSquareDropDown.h; sourceTree = "<group>"; };
+		56155E3961634FBA43620BFA94F150DD /* TPSDropDown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPSDropDown.m; path = TPSDropDown/Classes/TPSDropDown.m; sourceTree = "<group>"; };
+		59E8A6ECF5C8519747CC06B11CA57C29 /* NSAttributedString+TPSDropDownItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+TPSDropDownItem.h"; path = "TPSDropDown/Classes/NSAttributedString+TPSDropDownItem.h"; sourceTree = "<group>"; };
+		5FA723530E5355412CDF7523BDA75855 /* TPSRoundDropDown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPSRoundDropDown.m; path = TPSDropDown/Classes/TPSRoundDropDown.m; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6503156F5FF74A550E62B64129C62ACC /* Pods-Dropdown_Menu-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dropdown_Menu-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FF3A1CB1C9437B0AF0E29E3B85F0062 /* TPSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPSDropDown-dummy.m"; sourceTree = "<group>"; };
+		6FF63D0590789C3833561F714AC9A8C7 /* TPSMKDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPSMKDropdownMenu.xcconfig; sourceTree = "<group>"; };
+		7C99F5BC33F4B29E47098A8DBE60CF5F /* Pods-Dropdown_Menu-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dropdown_Menu-frameworks.sh"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		837ED2C424D4EABE8B06297650C1AD55 /* NSString+TPSDropDownItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TPSDropDownItem.h"; path = "TPSDropDown/Classes/NSString+TPSDropDownItem.h"; sourceTree = "<group>"; };
+		8B672FC4406798DA2ABF0A0FDAD767F1 /* square_drop_down_indicator_image@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "square_drop_down_indicator_image@2x.png"; path = "TPSDropDown/Assets/square_drop_down_indicator_image@2x.png"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98E8E67CD0A370F29C4BF5C99F150491 /* round_drop_down_indicator_image@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "round_drop_down_indicator_image@2x.png"; path = "TPSDropDown/Assets/round_drop_down_indicator_image@2x.png"; sourceTree = "<group>"; };
+		996B348830BEEE67FCB3CD5FC6996221 /* NSAttributedString+TPSDropDownItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+TPSDropDownItem.m"; path = "TPSDropDown/Classes/NSAttributedString+TPSDropDownItem.m"; sourceTree = "<group>"; };
+		A73CE1E851D97D70B547FD0862DDDB67 /* Pods-Dropdown_Menu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dropdown_Menu.debug.xcconfig"; sourceTree = "<group>"; };
+		B2DE7E71AC047E59D3810FFD53B457AB /* TPSMKDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPSMKDropdownMenu-dummy.m"; sourceTree = "<group>"; };
+		B3620ECA2BFA327DCBA3B52327365B68 /* square_drop_down_indicator_image@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "square_drop_down_indicator_image@3x.png"; path = "TPSDropDown/Assets/square_drop_down_indicator_image@3x.png"; sourceTree = "<group>"; };
+		CA7CA701AA383192DB3E3007424FFA6C /* Pods-Dropdown_Menu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dropdown_Menu.release.xcconfig"; sourceTree = "<group>"; };
+		CCE6C39A2FB0E06F1FC672C9BAD5BDF4 /* TPSDropDownBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TPSDropDownBundle.bundle; path = TPSDropDownBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2907B4214C9248DD12598A402BF089D /* TPSRoundDropDown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPSRoundDropDown.h; path = TPSDropDown/Classes/TPSRoundDropDown.h; sourceTree = "<group>"; };
+		D30CFF95B8ACF39D1D2B5BF7B78035A1 /* Pods-Dropdown_Menu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dropdown_Menu-dummy.m"; sourceTree = "<group>"; };
+		D3A639A297129966B0750750FA55135F /* MKDropdownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKDropdownMenu.m; path = MKDropdownMenu/MKDropdownMenu.m; sourceTree = "<group>"; };
+		D4C1258C257D1CA5CB11868F04DA4934 /* TPSSquareDropDown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPSSquareDropDown.m; path = TPSDropDown/Classes/TPSSquareDropDown.m; sourceTree = "<group>"; };
+		E111FF8E285BCF15027C4C4A28F81683 /* TPSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPSDropDown-prefix.pch"; sourceTree = "<group>"; };
+		E1732245552CAAC9B442361B767C3C5D /* ResourceBundle-TPSDropDownBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TPSDropDownBundle-Info.plist"; sourceTree = "<group>"; };
+		E3E680A8E16442FB61186290A6945209 /* TPSDropDown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPSDropDown.h; path = TPSDropDown/Classes/TPSDropDown.h; sourceTree = "<group>"; };
+		E49E02A51635794BB1CF17CA79A3DA01 /* Pods-Dropdown_Menu-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dropdown_Menu-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6777DE8225A885F5D5ED43EF6D7F228 /* NSString+TPSDropDownItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TPSDropDownItem.m"; path = "TPSDropDown/Classes/NSString+TPSDropDownItem.m"; sourceTree = "<group>"; };
+		EC8166EA7BEC2542AA18FC8C8FD57A31 /* Pods-Dropdown_Menu-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dropdown_Menu-resources.sh"; sourceTree = "<group>"; };
+		F364CF367974938C18983B5CDDAC6229 /* libPods-Dropdown_Menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Dropdown_Menu.a"; path = "libPods-Dropdown_Menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A2E76E2AA674192B4349E45F75C422C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F40030DD7D01FCE7145AA153A8E696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1232FD50BD15B4330460030B6D07279 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD9C2795BE91202C6FB7334C6A5DFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938674E705204C86B9281B9D46A4A43A /* Foundation.framework in Frameworks */,
+				60693D519CA1E719A3E3A6AEAB1C5589 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26EAFB4484752EA29780B84EC1DE82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B18E33E382F89BCBC28C4A050D14610 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BBFDD28526AD698069CE67EF8BF697A /* Pods-Dropdown_Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E49E02A51635794BB1CF17CA79A3DA01 /* Pods-Dropdown_Menu-acknowledgements.markdown */,
+				6503156F5FF74A550E62B64129C62ACC /* Pods-Dropdown_Menu-acknowledgements.plist */,
+				D30CFF95B8ACF39D1D2B5BF7B78035A1 /* Pods-Dropdown_Menu-dummy.m */,
+				7C99F5BC33F4B29E47098A8DBE60CF5F /* Pods-Dropdown_Menu-frameworks.sh */,
+				EC8166EA7BEC2542AA18FC8C8FD57A31 /* Pods-Dropdown_Menu-resources.sh */,
+				A73CE1E851D97D70B547FD0862DDDB67 /* Pods-Dropdown_Menu.debug.xcconfig */,
+				CA7CA701AA383192DB3E3007424FFA6C /* Pods-Dropdown_Menu.release.xcconfig */,
+			);
+			name = "Pods-Dropdown_Menu";
+			path = "Target Support Files/Pods-Dropdown_Menu";
+			sourceTree = "<group>";
+		};
+		2021971B3164AE4F54CEA3DB4336B505 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34F3BE296D3231113E5721180E0C9E89 /* round_drop_down_indicator_image.png */,
+				98E8E67CD0A370F29C4BF5C99F150491 /* round_drop_down_indicator_image@2x.png */,
+				3F2D62BF30BF57C5DF2EC88AD3B3D14E /* round_drop_down_indicator_image@3x.png */,
+				45B1AC18CBDC4A4D4B6531493DEF2BF7 /* square_drop_down_indicator_image.png */,
+				8B672FC4406798DA2ABF0A0FDAD767F1 /* square_drop_down_indicator_image@2x.png */,
+				B3620ECA2BFA327DCBA3B52327365B68 /* square_drop_down_indicator_image@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77107E1D048648E54CD651F8C588674C /* TPSMKDropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2BD155B04E7CB613387316A07D1D0362 /* MKDropdownMenu.h */,
+				D3A639A297129966B0750750FA55135F /* MKDropdownMenu.m */,
+				956BD88748C9E630A78420934C8D187D /* Support Files */,
+			);
+			name = TPSMKDropdownMenu;
+			path = TPSMKDropdownMenu;
+			sourceTree = "<group>";
+		};
+		783521271636B71AEF893A03E93D4F96 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BBFDD28526AD698069CE67EF8BF697A /* Pods-Dropdown_Menu */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				A4581A460B483C4A7787CED36A639932 /* Pods */,
+				BC2932693F029BFA43466E55C5D2EBB5 /* Products */,
+				783521271636B71AEF893A03E93D4F96 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81D3FA6CF52B49182E819C0C74DF2177 /* TPSDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				59E8A6ECF5C8519747CC06B11CA57C29 /* NSAttributedString+TPSDropDownItem.h */,
+				996B348830BEEE67FCB3CD5FC6996221 /* NSAttributedString+TPSDropDownItem.m */,
+				837ED2C424D4EABE8B06297650C1AD55 /* NSString+TPSDropDownItem.h */,
+				E6777DE8225A885F5D5ED43EF6D7F228 /* NSString+TPSDropDownItem.m */,
+				E3E680A8E16442FB61186290A6945209 /* TPSDropDown.h */,
+				56155E3961634FBA43620BFA94F150DD /* TPSDropDown.m */,
+				D2907B4214C9248DD12598A402BF089D /* TPSRoundDropDown.h */,
+				5FA723530E5355412CDF7523BDA75855 /* TPSRoundDropDown.m */,
+				4BF0831B17E5D3D5928F1D4E20D03DF6 /* TPSSquareDropDown.h */,
+				D4C1258C257D1CA5CB11868F04DA4934 /* TPSSquareDropDown.m */,
+				2021971B3164AE4F54CEA3DB4336B505 /* Resources */,
+				B3E5BC967C3AF29BB41EF14C16201FBA /* Support Files */,
+			);
+			name = TPSDropDown;
+			path = TPSDropDown;
+			sourceTree = "<group>";
+		};
+		956BD88748C9E630A78420934C8D187D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FF63D0590789C3833561F714AC9A8C7 /* TPSMKDropdownMenu.xcconfig */,
+				B2DE7E71AC047E59D3810FFD53B457AB /* TPSMKDropdownMenu-dummy.m */,
+				1FC37357E43F8DD990473BD80CA47704 /* TPSMKDropdownMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPSMKDropdownMenu";
+			sourceTree = "<group>";
+		};
+		A4581A460B483C4A7787CED36A639932 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81D3FA6CF52B49182E819C0C74DF2177 /* TPSDropDown */,
+				77107E1D048648E54CD651F8C588674C /* TPSMKDropdownMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3E5BC967C3AF29BB41EF14C16201FBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1732245552CAAC9B442361B767C3C5D /* ResourceBundle-TPSDropDownBundle-Info.plist */,
+				2DC2CD3311175141236E5C73FC491658 /* TPSDropDown.xcconfig */,
+				6FF3A1CB1C9437B0AF0E29E3B85F0062 /* TPSDropDown-dummy.m */,
+				E111FF8E285BCF15027C4C4A28F81683 /* TPSDropDown-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPSDropDown";
+			sourceTree = "<group>";
+		};
+		BC2932693F029BFA43466E55C5D2EBB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F364CF367974938C18983B5CDDAC6229 /* libPods-Dropdown_Menu.a */,
+				0F301BF430C4465572A6FCBEECD959EC /* libTPSDropDown.a */,
+				2402C88E026C7FCC7D76D3546091289A /* libTPSMKDropdownMenu.a */,
+				CCE6C39A2FB0E06F1FC672C9BAD5BDF4 /* TPSDropDownBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A9E1EEFB5FEECB06730489D9E95808A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B232FEFC2F03840A9B3A72C073ECA787 /* NSAttributedString+TPSDropDownItem.h in Headers */,
+				21D0BF785683D9ACA481FCB476A92A65 /* NSString+TPSDropDownItem.h in Headers */,
+				14853CFD63E295FFD46FFD4943F246F9 /* TPSDropDown.h in Headers */,
+				372470E74DA8F15B63E1AB0D2D85C37C /* TPSRoundDropDown.h in Headers */,
+				343CF7DAE27BC235A21795807597FFD0 /* TPSSquareDropDown.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD14CB61CD6C7729027014FBAC91110 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6851346A9DA047FCA7FB1DD5BE6212C7 /* MKDropdownMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		030218E7DEB7828F5A147E98549BCFFF /* Pods-Dropdown_Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5FEA4BBABF9C0393B07608F3AF272B /* Build configuration list for PBXNativeTarget "Pods-Dropdown_Menu" */;
+			buildPhases = (
+				3C35D87FA976A0929DE928BF977571AB /* Sources */,
+				43F40030DD7D01FCE7145AA153A8E696 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6109BD866CD85C3C84D3BA49EF5AA081 /* PBXTargetDependency */,
+				6C0B00E4068CAD84D3646B721B140DF9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Dropdown_Menu";
+			productName = "Pods-Dropdown_Menu";
+			productReference = F364CF367974938C18983B5CDDAC6229 /* libPods-Dropdown_Menu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A61AF3D02F2570F1AF006DB125D768C7 /* TPSMKDropdownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A205295907358D73089FDAB55D72A0 /* Build configuration list for PBXNativeTarget "TPSMKDropdownMenu" */;
+			buildPhases = (
+				65C027FC2B84C81AC25F0217618DD6D0 /* Sources */,
+				D26EAFB4484752EA29780B84EC1DE82E /* Frameworks */,
+				CAD14CB61CD6C7729027014FBAC91110 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPSMKDropdownMenu;
+			productName = TPSMKDropdownMenu;
+			productReference = 2402C88E026C7FCC7D76D3546091289A /* libTPSMKDropdownMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B8FD4B738C9B6946F57B44AD1B35519C /* TPSDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BD9E0210D785BA517D7379FCD0346A /* Build configuration list for PBXNativeTarget "TPSDropDown" */;
+			buildPhases = (
+				E45D83CD850DC9A7509CC47DD39E1870 /* Sources */,
+				9BD9C2795BE91202C6FB7334C6A5DFDD /* Frameworks */,
+				A9E1EEFB5FEECB06730489D9E95808A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D047C2E226443BA43598CF45F5785A5 /* PBXTargetDependency */,
+				F669068ED0B06734A85389862B746E41 /* PBXTargetDependency */,
+			);
+			name = TPSDropDown;
+			productName = TPSDropDown;
+			productReference = 0F301BF430C4465572A6FCBEECD959EC /* libTPSDropDown.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FFE0644E55E8A8678B05A72302D8B9DE /* TPSDropDown-TPSDropDownBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BC570F8EA32A1C5CB4D8AB70EC9B5C /* Build configuration list for PBXNativeTarget "TPSDropDown-TPSDropDownBundle" */;
+			buildPhases = (
+				C01FA930DF1BC85ECB527E153EDFEDB8 /* Sources */,
+				3A2E76E2AA674192B4349E45F75C422C /* Frameworks */,
+				F0293C74344D9C6094F8CAFE42E46DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TPSDropDown-TPSDropDownBundle";
+			productName = "TPSDropDown-TPSDropDownBundle";
+			productReference = CCE6C39A2FB0E06F1FC672C9BAD5BDF4 /* TPSDropDownBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BC2932693F029BFA43466E55C5D2EBB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030218E7DEB7828F5A147E98549BCFFF /* Pods-Dropdown_Menu */,
+				B8FD4B738C9B6946F57B44AD1B35519C /* TPSDropDown */,
+				FFE0644E55E8A8678B05A72302D8B9DE /* TPSDropDown-TPSDropDownBundle */,
+				A61AF3D02F2570F1AF006DB125D768C7 /* TPSMKDropdownMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0293C74344D9C6094F8CAFE42E46DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3028DF782502F57474BC2CBD90434C /* round_drop_down_indicator_image.png in Resources */,
+				9A889E40445DA7877C73809A45AD7660 /* round_drop_down_indicator_image@2x.png in Resources */,
+				D3DC0CCF00E0F1E3465F4900E1B29E28 /* round_drop_down_indicator_image@3x.png in Resources */,
+				A86C7AFE5B1735EC04211475CF05AB43 /* square_drop_down_indicator_image.png in Resources */,
+				B289C30FA470F8479FB8F4DFE3378396 /* square_drop_down_indicator_image@2x.png in Resources */,
+				CABC8545B3A6C71E6E77FD14770D7262 /* square_drop_down_indicator_image@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C35D87FA976A0929DE928BF977571AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53D0CF5C1085E7A04C6A52938F8196A /* Pods-Dropdown_Menu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C027FC2B84C81AC25F0217618DD6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8412A35E658CDAFD07DD4B84C52ACBBB /* MKDropdownMenu.m in Sources */,
+				3533029EA99EE62A44D3339F9F48864B /* TPSMKDropdownMenu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01FA930DF1BC85ECB527E153EDFEDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45D83CD850DC9A7509CC47DD39E1870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB7EDFD986FC77A0DE9384B6FCD0CDC /* NSAttributedString+TPSDropDownItem.m in Sources */,
+				D1D160560EF714FA294C7E72231633B1 /* NSString+TPSDropDownItem.m in Sources */,
+				7D27F95E0B6C9C9DBFCE9EA049236E97 /* TPSDropDown-dummy.m in Sources */,
+				5A3BD71E5FC0C6E507B0C3C45CA79D1B /* TPSDropDown.m in Sources */,
+				570187ADF3BAD418406224293E291C6A /* TPSRoundDropDown.m in Sources */,
+				F7E1DE25795FA569F71817985C038C53 /* TPSSquareDropDown.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D047C2E226443BA43598CF45F5785A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TPSDropDown-TPSDropDownBundle";
+			target = FFE0644E55E8A8678B05A72302D8B9DE /* TPSDropDown-TPSDropDownBundle */;
+			targetProxy = 9FE001B8C0E9DC4E1404E8D567693519 /* PBXContainerItemProxy */;
+		};
+		6109BD866CD85C3C84D3BA49EF5AA081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPSDropDown;
+			target = B8FD4B738C9B6946F57B44AD1B35519C /* TPSDropDown */;
+			targetProxy = D6285CC06F52FD3392366B34F65C7CB8 /* PBXContainerItemProxy */;
+		};
+		6C0B00E4068CAD84D3646B721B140DF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPSMKDropdownMenu;
+			target = A61AF3D02F2570F1AF006DB125D768C7 /* TPSMKDropdownMenu */;
+			targetProxy = B5923CB916CBF9DBAE2790B2D95F8FA2 /* PBXContainerItemProxy */;
+		};
+		F669068ED0B06734A85389862B746E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPSMKDropdownMenu;
+			target = A61AF3D02F2570F1AF006DB125D768C7 /* TPSMKDropdownMenu */;
+			targetProxy = 7D2B26944DB703065710024AB10412F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AED68407F0BF15170F539080E204FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC2CD3311175141236E5C73FC491658 /* TPSDropDown.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPSDropDown/TPSDropDown-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		79AEDBCFDEBDABFAA99AEC8E00C02011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7CA701AA383192DB3E3007424FFA6C /* Pods-Dropdown_Menu.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		99480268D5137C6A965CC67F1D25891B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC2CD3311175141236E5C73FC491658 /* TPSDropDown.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPSDropDown/TPSDropDown-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		99E8C8298F39B222D53D7D2E64648576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC2CD3311175141236E5C73FC491658 /* TPSDropDown.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TPSDropDown";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TPSDropDown/ResourceBundle-TPSDropDownBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TPSDropDownBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9D834C95F986D2B1763DF85AA3752840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF63D0590789C3833561F714AC9A8C7 /* TPSMKDropdownMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPSMKDropdownMenu/TPSMKDropdownMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC9DEFC41CAD82CA27BD581FFF81C571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73CE1E851D97D70B547FD0862DDDB67 /* Pods-Dropdown_Menu.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F67E6746B820947087A8AF7CB20663D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC2CD3311175141236E5C73FC491658 /* TPSDropDown.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TPSDropDown";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TPSDropDown/ResourceBundle-TPSDropDownBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TPSDropDownBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F77517E27933962E926278A9169B6434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF63D0590789C3833561F714AC9A8C7 /* TPSMKDropdownMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPSMKDropdownMenu/TPSMKDropdownMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A5FEA4BBABF9C0393B07608F3AF272B /* Build configuration list for PBXNativeTarget "Pods-Dropdown_Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9DEFC41CAD82CA27BD581FFF81C571 /* Debug */,
+				79AEDBCFDEBDABFAA99AEC8E00C02011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BC570F8EA32A1C5CB4D8AB70EC9B5C /* Build configuration list for PBXNativeTarget "TPSDropDown-TPSDropDownBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67E6746B820947087A8AF7CB20663D6 /* Debug */,
+				99E8C8298F39B222D53D7D2E64648576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A205295907358D73089FDAB55D72A0 /* Build configuration list for PBXNativeTarget "TPSMKDropdownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77517E27933962E926278A9169B6434 /* Debug */,
+				9D834C95F986D2B1763DF85AA3752840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78BD9E0210D785BA517D7379FCD0346A /* Build configuration list for PBXNativeTarget "TPSDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99480268D5137C6A965CC67F1D25891B /* Debug */,
+				0AED68407F0BF15170F539080E204FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

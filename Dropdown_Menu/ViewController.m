@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import <TPSSquareDropDown.h>
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet TPSSquareDropDown *squareDropDown;
 
 @end
 
@@ -16,14 +19,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.squareDropDown.items = @[@"One", @"Two", @"Three",@"fdfdf",@"rtrtrt"];
+    self.squareDropDown.selectedItemIndex = 0;
+    
+    
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
